@@ -1,0 +1,13 @@
+= Elasticsearch - Quick Guide
+
+
+
+
+== Dockerization
+
+- Link: https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
+
+== Problems and Resolutions
+- Problem: https://stackoverflow.com/questions/51445846/elasticsearch-max-virtual-memory-areas-vm-max-map-count-65530-is-too-low-inc
+- Solution: https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html
+** `sysctl -w vm.max_map_count=262144`
