@@ -1,0 +1,21 @@
+= Cassandra - Quick Guide
+:toc:
+:toclevels: 3
+:sectnums: 3
+:sectnumlevels: 3
+:icons: font
+:source-highlighter: rouge
+
+.Cassandra/cqlsh via Docker
+TIP: https://cassandra.apache.org/_/quickstart.html
+
+.Authentication Config <- Enable User/password Auth
+TIP: https://docs.datastax.com/en/cassandra-oss/3.0/cassandra/configuration/secureConfigNativeAuth.html[Secure Config NativeAuth]
+
+.Copy Cassandra Config from Docker Container to Local host
+[source,bash]
+----
+docker cp cassandra:/etc/cassandra vol/conf
+----
+
+== DDL
