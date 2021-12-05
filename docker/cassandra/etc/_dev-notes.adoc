@@ -15,7 +15,7 @@ TIP: https://docs.datastax.com/en/cassandra-oss/3.0/cassandra/configuration/secu
 .Copy Cassandra Config from Docker Container to Local host
 [source,bash]
 ----
-docker cp cassandra:/etc/cassandra vol/conf
+docker cp cassandra:/etc/cassandra/. vol/conf
 ----
 
 == DDL
