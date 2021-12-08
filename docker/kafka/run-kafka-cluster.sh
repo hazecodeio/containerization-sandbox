@@ -1,2 +1,2 @@
 #!/bin/bash
-docker-compose up
+docker-compose -f docker-compose-cluster.yml up
