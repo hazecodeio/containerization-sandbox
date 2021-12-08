@@ -1,0 +1,18 @@
+GET http://localhost:9200
+
+###
+
+GET http://localhost:9200/_cat
+
+###
+
+GET http://localhost:9200/_cat/health?v&pretty
+
+###
+
+GET http://localhost:9200/_cat/indices?v&pretty
+
+###
+
+GET http://localhost:9200/_cat/health?v&pretty
+
