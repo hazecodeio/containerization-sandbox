@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jdk-alpine
+FROM eclipse-temurin:17-jdk-alpine
 
 ENV SCALA_VERSION=2.13.8 \
     SCALA_HOME=/opt/scala/scala-$SCALA_VERSION

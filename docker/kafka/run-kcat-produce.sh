@@ -1,2 +1,5 @@
 #!/bin/bash
-docker run -it --network=host --rm kcat-modified kcat -P -b localhost:29092,localhost:39092 -t my-topic
+bash <<'EOF'
+EOF
+
+docker run -it --network=host --rm --name kcat-p kcat-modified kcat -b localhost:29092,localhost:39092 -t my-topic -P
